@@ -1,7 +1,13 @@
 # MOVIE RECOMMENDATION SYSTEM
-## About
-Hey there! Welcome to the Movie Recommendation System. We develop this project as our **semester 3 python group project**. This is my **first python project**. I'm excited to share it with you. This project is a simple movie recommendation system that uses a **content based recommendation** approach to suggest movies to users based on many different attributes of the movies. The system will ask the user for their preferences and then recommend movies that match those preferences. There is also another tyoe of recommendation called **collaborative filtering** which is suggest movies to users based on the behavior of other users with similar preferences. Mixing these two approches there exist another type of recommendation method called **Hybrid**.We will implement this in the future. For now, we will stick with the content based recommendation approach. First we will need to collect data about the movies for this use **tmdb 5000 movie dataset from kaggle** [Visit Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata "Download or get more information about the dataset"). The flow of project is mainly divided into four parts: **data collection, data preprocessing, model building and creating website**.
 
+![Project flow chart](screenshots/mrs-ui.png)
+
+## About
+Welcome to the Movie Recommendation System! This project is my first Python application, developed as a group effort during my third academic semester. It's a simple yet effective movie recommendation system that leverages a content-based filtering approach to suggest movies to users. The system recommends films based on various attributes, dynamically asking the user for their preferences to tailor suggestions.
+
+First we will need to collect data about the movies for this use **tmdb 5000 movie dataset from kaggle** [Visit Dataset](https://www.kaggle.com/datasets/tmdb/tmdb-movie-metadata "Download or get more information about the dataset"). The flow of project is mainly divided into four parts: **data collection, data preprocessing, model building and creating website**.
+
+The project workflow is primarily divided into four key stages: data collection, data preprocessing, model building, and web application creation.
 ## Installations
 1. Clone the repo:
    ```sh
